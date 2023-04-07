@@ -18,44 +18,88 @@ header {
 
 header .heading { /* headerタグ内のheadingクラスにのみ反映される */
   font-size: 32px;
+  text-decoration:underline;
 }
 
 .nav-list {
   text-align: center;
-  padding: 10px 0;
+  padding: 15px 0;
   margin: 0 auto;
+  border-top: 1px solid #848282;
+  border-bottom: 1px solid #848282;
 }
 
 .nav-list-item {
   list-style: none;
   display: inline-block;
   margin: 0 20px;
+  text-decoration:underline;
 }
-.main-visual {
-  width: 100%; /* 横幅いっぱい */
-  height: 300px; /* 高さ300px */
-}
-
-.main-visual-content {
-  width: 350px; /* 横幅350px */
-  height: 300px; /* 親の高さに揃える */
-}
-
-.main {
-  width: 840px; /* 横幅840px */
+.color-box {
+  width: 800px; /* 横幅840px */
   display: flex; /* Flexboxの利用 */
-  justify-content: center; /* 要素の横並び・中央寄せ */
-  margin: 0 auto; /* 中央寄せ（左右に余白がないとできない） */
+  flex-wrap: wrap;
+  margin: 50px auto; /* 中央寄せ（左右に余白がないとできない） */
 }
-
-.blog {
-  width: 600px; /* 横幅600px */
-  height: 1400px; /* 高さ1400px */
+.green1{
+  width: 200px;
+  height: 200px;
+  background-color: #e6ffe9;
 }
-
-.sidebar {
-  width: 240px; /* 横幅240px */
-  height: 1400px; /* 高さ1400px */
+.green2{
+  width: 200px;
+  height: 200px;
+  background-color: #cbffd3;
+}
+.green3{
+  width: 200px;
+  height: 200px;
+  background-color: #aeffbd;
+}
+.green4{
+  width: 200px;
+  height: 200px;
+  background-color: #93ffab;
+}
+.yellow1{
+  width: 200px;
+  height: 200px;
+  background-color: #f3ffd8;
+}
+.yellow2{
+  width: 200px;
+  height: 200px;
+  background-color: #edffbe;
+}
+.yellow3{
+  width: 200px;
+  height: 200px;
+  background-color: #e9ffa5;
+}
+.yellow4{
+  width: 200px;
+  height: 200px;
+  background-color: #e4ff8d;
+}
+.blue1{
+  width: 200px;
+  height: 200px;
+  background-color: #d9e5ff;
+}
+.blue2{
+  width: 200px;
+  height: 200px;
+  background-color: #bad3ff;
+}
+.blue3{
+  width: 200px;
+  height: 200px;
+  background-color: #a4c6ff;
+}
+.blue4{
+  width: 200px;
+  height: 200px;
+  background-color: #8eb8ff;
 }
 
 footer {
